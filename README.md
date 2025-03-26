@@ -365,6 +365,7 @@ printf("Decoded message : %s\n", dec); return 0;
 
 ## OUTPUT:
 OUTPUT:
+![image](https://github.com/user-attachments/assets/224127d3-2eb2-46a8-b10d-deb38b13b489)
 
 
 
