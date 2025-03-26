@@ -71,7 +71,7 @@ caesarDecrypt(message, key); printf("Decrypted Message: %s", message); return 0;
 
 ## OUTPUT:
 OUTPUT:
-Simulating Caesar Cipher
+![image](https://github.com/user-attachments/assets/9370c428-085d-4ce8-a701-8c0e75aa83ea)
 
 
 Input : Anna University
@@ -120,6 +120,7 @@ To decrypt, use the INVERSE (opposite) of the last 3 rules, and the 1st as-is (d
 
 
 ## PROGRAM:
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -275,10 +276,11 @@ printf("Cipher text: %s\n", str);
 
 return 0;
 }
-
+```
 ## OUTPUT:
 Output:
-Key text: Monarchy Plain text: instruments Cipher text: gatlmzclrqtx
+![image](https://github.com/user-attachments/assets/26edb422-f390-4d52-9a07-7d9f5fd73023)
+
 
 ## RESULT:
 The program is executed successfully
@@ -314,6 +316,7 @@ The cipher can, be adapted to an alphabet with any number of letters. All arithm
 
 ## PROGRAM:
 PROGRAM:
+```
 #include <stdio.h> #include <string.h>
 int keymat[3][3] = { { 1, 2, 1 }, { 2, 3, 2 }, { 2, 2, 1 } };
 int invkeymat[3][3] = { { -1, 0, 1 }, { 2, -1, 0 }, { -2, 2, -1 } }; char key[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -358,11 +361,11 @@ strcat(dec, decode(a, b, c));
 }
 printf("Decoded message : %s\n", dec); return 0;
 }
-
+```
 
 ## OUTPUT:
 OUTPUT:
-Simulating Hill Cipher
+
 
 
 Input Message : SecurityLaboratory
