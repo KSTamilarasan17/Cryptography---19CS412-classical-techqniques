@@ -436,7 +436,8 @@ char message[]= "Thisisasecretmessage.";//Replace withyourmessage
 ## OUTPUT:
 OUTPUT :
 
-Simulating Vigenere Cipher
+![image](https://github.com/user-attachments/assets/edae27bc-72fd-42e1-9566-ecec1f52ce5f)
+
 
 
 Input Message : SecurityLaboratory
@@ -519,8 +520,8 @@ printf("\n");
 }
 ## OUTPUT:
 OUTPUT:
-Enter a Secret Message wearediscovered
-Enter number of rails 2
+![image](https://github.com/user-attachments/assets/511c6311-4dd9-470d-8d9a-2b766c7136ac)
+
 waeicvrderdsoee
 ## RESULT:
 The program is executed successfully
